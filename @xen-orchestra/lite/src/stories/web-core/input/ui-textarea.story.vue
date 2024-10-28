@@ -26,5 +26,5 @@
 import ComponentStory from '@/components/component-story/ComponentStory.vue'
 import { iconProp, prop, setting, slot, model } from '@/libs/story/story-param'
 import { text } from '@/libs/story/story-widget'
-import UiTextarea from '@core/components/input/UiTextarea.vue'
+import UiTextarea from '@core/components/ui/input/UiTextarea.vue'
 </script>
