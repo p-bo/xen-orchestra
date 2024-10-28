@@ -32,6 +32,7 @@
 <!--packages-start-->
 
 - @xen-orchestra/log minor
+- @xen-orchestra/web-core minor
 - xo-server minor
 
 <!--packages-end-->
