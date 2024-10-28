@@ -71,6 +71,7 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
         border-color: var(--color-neutral-border);
         border-width: 0.1rem;
         outline: solid 0.2rem var(--color-normal-txt-base);
+        outline-offset: 0.2rem;
       }
     }
 
@@ -91,6 +92,7 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
         border-color: var(--color-neutral-border);
         border-width: 0.1rem;
         outline: solid 0.2rem var(--color-warning-txt-base);
+        outline-offset: 0.2rem;
       }
     }
 
@@ -111,6 +113,7 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
         border-color: var(--color-neutral-border);
         border-width: 0.1rem;
         outline: solid 0.2rem var(--color-danger-txt-base);
+        outline-offset: 0.2rem;
       }
     }
   }
