@@ -67,12 +67,6 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
         border-width: 0.2rem;
         border-color: var(--color-normal-item-base);
       }
-      &:focus-visible {
-        border-color: var(--color-neutral-border);
-        border-width: 0.1rem;
-        outline: solid 0.2rem var(--color-normal-txt-base);
-        outline-offset: 0.2rem;
-      }
     }
 
     &.warning:not(:disabled) {
@@ -88,12 +82,6 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
         border-width: 0.2rem;
         border-color: var(--color-warning-item-base);
       }
-      &:focus-visible {
-        border-color: var(--color-neutral-border);
-        border-width: 0.1rem;
-        outline: solid 0.2rem var(--color-warning-txt-base);
-        outline-offset: 0.2rem;
-      }
     }
 
     &.danger:not(:disabled) {
@@ -108,12 +96,6 @@ const labelAccent = computed(() => (props.disabled ? 'brand' : props.accent))
       &:focus {
         border-width: 0.2rem;
         border-color: var(--color-danger-item-base);
-      }
-      &:focus-visible {
-        border-color: var(--color-neutral-border);
-        border-width: 0.1rem;
-        outline: solid 0.2rem var(--color-danger-txt-base);
-        outline-offset: 0.2rem;
       }
     }
   }
