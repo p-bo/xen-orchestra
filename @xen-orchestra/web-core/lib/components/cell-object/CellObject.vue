@@ -12,7 +12,7 @@
           :left-icon="faCopy"
           variant="secondary"
           size="small"
-          :accent="copied ? 'success' : 'brand'"
+          :accent="copied ? 'success' : 'info'"
           @click="copy(id)"
         >
           {{ copied ? $t('core.copied') : $t('core.copy-id') }}

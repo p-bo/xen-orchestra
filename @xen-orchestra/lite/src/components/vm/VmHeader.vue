@@ -6,7 +6,7 @@
         <template #trigger="{ open, isOpen }">
           <UiButton
             size="medium"
-            accent="brand"
+            accent="info"
             variant="primary"
             :class="{ pressed: isOpen }"
             :left-icon="faPowerOff"

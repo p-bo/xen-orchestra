@@ -44,7 +44,7 @@
             <UiButton
               v-if="eventsLog.length > 0"
               size="medium"
-              accent="brand"
+              accent="info"
               variant="tertiary"
               @click="eventsLog = []"
             >
