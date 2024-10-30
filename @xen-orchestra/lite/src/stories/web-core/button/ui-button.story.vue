@@ -5,7 +5,7 @@
       prop('accent')
         .type('ButtonAccent')
         .enum('info', 'success', 'warning', 'danger')
-        .preset('brand')
+        .preset('info')
         .required()
         .widget(),
       prop('variant')
